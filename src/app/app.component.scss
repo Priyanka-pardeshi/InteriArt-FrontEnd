@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)95%,rgba(0,0,00.5)95%), url("https://media.istockphoto.com/photos/render-of-living-room-picture-id1181827351?k=20&m=1181827351&s=612x612&w=0&h=tqJgTIJOT-8MDs-bwP5y32HdsrkPm6D-jTde5wI-9wE=");
+    background-position: center;
+    background-size: cover;
+    /**height of image*/
+    height: 100vh;
+}
+.navbar{
+    width: 100px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float:left;
+    height:70px;
+    float: left;
+}
+.logo{
+    color: chocolate;
+    font-size: 35px;
+    font-family: Arial;
+    float: left;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+.text{
+    text-decoration:none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+/**not hover*/
+ul li a:hover{
+    color: orangered;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.content .para{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 0%20px;
+    margin-top: 9px;
+    letter-spacing: 2px;
+
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background:linear-gradient(to top, rgba(240, 236, 236, 0.8)50%,rgba(231, 224, 224, 0.8)50%);
+    position: absolute;
+    top: 100px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: left;
+    color: black;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color:black;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-family: sans-serif;
+
+}
+.form select{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color:black;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.form select:focus{
+    outline: none;
+}
+
+.form input:focus{
+    outline:none
+}
+
+.btn{
+    width: 240px;
+    height: 40px;
+    background: white;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    transition: 0.4s ease;
+}
+.btn:hover{
+    background:gray;
+    color: black;
+}
+
+
